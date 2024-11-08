@@ -55,10 +55,10 @@
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#" class="text-hover-animaiton nav-pages-item">Pages</a>
+                                    <a href="<?php BASE_URL ?>page" class="text-hover-animaiton nav-pages-item">Pages</a>
                                     <ul>
                                         <li>
-                                            <a href="team.html" class="text-hover-animaiton">Team</a>
+                                            <a href="" class="text-hover-animaiton">Team</a>
                                         </li>
                                         <li>
                                             <a href="team-single.html" class="text-hover-animaiton">Team Single</a>

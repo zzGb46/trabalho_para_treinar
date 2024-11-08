@@ -19,7 +19,9 @@
 </head>
 
 <body>
-<?php require_once('template/contato.php') ?>
+
+
+  <?php require_once('template/team.php') ?>
 
     <!-- Script -->
     <script src="assets/js/plugins/jquery-3.7.1.min.js"></script>
