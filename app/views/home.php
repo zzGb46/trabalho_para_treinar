@@ -11,11 +11,11 @@
     <link rel="icon" href="<?php BASE_URL ?>assets/img/favicon.svg" />
     <!-- Site Title -->
     <title><?php echo isset($titulo) ? $titulo : 'Ki oficina '; ?></title>
-    <link rel="stylesheet" href="<?php BASE_URL ?>assets/css/plugins/lightgallery.min.css">
-    <link rel="stylesheet" href="<?php BASE_URL ?>assets/css/plugins/swiper.min.css">
-    <link rel="stylesheet" href="<?php BASE_URL ?>assets/css/plugins/aos.css">
-    <link rel="stylesheet" href="<?php BASE_URL ?>assets/css/plugins/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php BASE_URL ?>assets/css/style.css">
+    <link rel="stylesheet" href="http://localhost/kioficina/public/assets/css/plugins/lightgallery.min.css">
+    <link rel="stylesheet" href="http://localhost/kioficina/public/assets/css/plugins/swiper.min.css">
+    <link rel="stylesheet" href="http://localhost/kioficina/public/assets/css/plugins/aos.css">
+    <link rel="stylesheet" href="http://localhost/kioficina/public/assets/css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="http://localhost/kioficina/public/assets/css/style.css">
 </head>
 
 <body>
