@@ -4,6 +4,7 @@
         <div class="sticky-content container">
             <div class="content style_2">
                 <div class="service">
+
                     <div class="service-card" data-aos="fade-left">
                         <a href="services-single.html" class="card-img">
                             <img src="assets/img/service_1.jpg" class="ak-bg" alt="...">
@@ -16,30 +17,9 @@
                             <a href="services-single.html" class="more-btn">VIEW MORE</a>
                         </div>
                     </div>
-                    <div class="service-card" data-aos="fade-left">
-                        <a href="services-single.html" class="card-img">
-                            <img src="assets/img/service_2.jpg" class="ak-bg" alt="...">
-                        </a>
-                        <div class="card-info">
-                            <a href="services-single.html" class="card-title">Engine Diagnostics and Repair</a>
-                            <p class="card-desp">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.
-                                Lorem Ipsum has been the industry's stan.</p>
-                            <a href="services-single.html" class="more-btn">VIEW MORE</a>
-                        </div>
-                    </div>
-                    <div class="service-card" data-aos="fade-left">
-                        <a href="services-single.html" class="card-img">
-                            <img src="assets/img/service_3.jpg" class="ak-bg" alt="...">
-                        </a>
-                        <div class="card-info">
-                            <a href="services-single.html" class="card-title">Tire Services</a>
-                            <p class="card-desp">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.
-                                Lorem Ipsum has been the industry's stan.</p>
-                            <a href="services-single.html" class="more-btn">VIEW MORE</a>
-                        </div>
-                    </div>
+
+                    
+
                 </div>
             </div>
             <div class="sidebar width-none">

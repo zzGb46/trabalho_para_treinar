@@ -30,7 +30,7 @@
 
     <?php require_once('template/mychose.php'); ?>
 
-    <?php require_once('template/service.php'); ?>
+    <?php require_once('template/servico.php'); ?>
 
     <?php require_once('template/video.php'); ?>
 

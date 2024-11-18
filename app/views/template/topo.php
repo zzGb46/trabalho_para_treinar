@@ -31,11 +31,9 @@
                                 <li class="menu-item-has-children">
                                     <a href="<?php BASE_URL ?>servico" class="text-hover-animaiton">Services</a>
                                     <ul>
+                                    
                                         <li>
-                                            <a href="services.html" class="text-hover-animaiton">Services</a>
-                                        </li>
-                                        <li>
-                                            <a href="services-two.html" class="text-hover-animaiton">Services Two</a>
+                                            <a href="<?php BASE_URL ?>servicoTwo" class="text-hover-animaiton">Services Two</a>
                                         </li>
                                         <li>
                                             <a href="services-single.html" class="text-hover-animaiton">Services
