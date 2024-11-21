@@ -21,7 +21,7 @@
 
 <body>
 <?php require_once('template/topo.php') ?>
-<?php require_once('template/servicoTwo.php') ?>
+<?php require_once('template/servicoSingle.php') ?>
 
 
 </body>

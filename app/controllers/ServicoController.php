@@ -1,8 +1,10 @@
 <?php
 
-class ServicoController extends Controller{
+class ServicoController extends Controller
+{
 
-    public function index(){
+  public function index()
+  {
 
 
     $dados = array();
@@ -12,31 +14,35 @@ class ServicoController extends Controller{
 
     //obter os 3 servicos
     $servicoAleatorio = $servicoModel->getServicoAleatorio(3);
- 
- //    var_dump($servicoAleatorio);
- 
-   $dados['servicos'] = $servicoAleatorio;
 
-    $this->carregarViews('servico',$dados);
+//obter dados do banco de dados para a pagina serviços que não estão vinculados a pagina home
+    $todosServicos = $servicoModel->getServicos();
 
+    //    var_dump($servicoAleatorio);
+
+    $dados['servicos'] = $servicoAleatorio;
+    $dados['todosServicos'] = $todosServicos;
+
+    $this->carregarViews('servico', $dados);
+  }
+
+
+  public function detalhe($link)
+  {
+
+    $dados = array();
+
+    $servicoModel = new Servico();
+    $detalheServico = $servicoModel->getServicoPorLink($link);
+
+    if ($detalheServico) {
+
+      $dados['titulo'] = $detalheServico['nome_servico'];
+      $dados['detalhe'] = $detalheServico;
+      $this->carregarViews('detalhe-servicos', $dados);
+    } else {
+      $dados['titulo'] = 'servicos ki oficina';
+      $this->carregarViews('servicoTwo', $dados);
     }
-
-    public function detalhe($link){
-
-      $dados = array();
-
-      $servicoModel = new Servico();
-      $detalheServico = $servicoModel->getServicoPorLink($link);
-
-      if($detalheServico){
-
-        $dados['titulo'] = $detalheServico['nome_servico'];
-        $dados['detalhe'] = $detalheServico;
-        $this->carregarViews('detalhe-servicos', $dados);
-        
-      }else{
-        $dados['titulo'] = 'servicos ki oficina';
-        $this->carregarViews('servicos', $dados);
-      }
-    }
+  }
 }

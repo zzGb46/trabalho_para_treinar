@@ -20,6 +20,14 @@ class HomeController extends Controller{
 
   // var_dump($dados);
 
+  $depoimentoModel = new Depoimento();
+
+  $depoimentoAleatorio = $depoimentoModel->getDepoimentoAleatorio(3);
+  $dados['depoimentos'] = $depoimentoAleatorio;
+
+
+  
+
     $this->carregarViews('home',$dados);
 
     }

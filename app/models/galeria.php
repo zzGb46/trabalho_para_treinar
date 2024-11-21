@@ -4,7 +4,7 @@ class Galeria extends Model
 {
 
     //Metodo para Pegar somente 3 serviços de forma aleatória
-    public function getServicoAleatorio($limite=3)
+    public function getGaleriaAleatorio($limite=5)
     {
 
         $sql = "select * from tbl_gabrielm_galeria where status_galeria= 'ativo' order by rand() limit :limite;";
