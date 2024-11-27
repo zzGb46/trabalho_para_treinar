@@ -79,7 +79,7 @@
                         <div class="service-desp">
                             <a href="services-single.html" class="title"><?php echo htmlspecialchars($servicos['nome_servico'], ENT_QUOTES, 'UTF-8'); ?></a>
                             <p class="desp"><?php echo htmlspecialchars($servicos['descricao_servico'], ENT_QUOTES, 'UTF-8'); ?></p>
-                            <a href="services-single.html" class="more-btn">VIEW MORE</a>
+                            <a href="<?php echo htmlspecialchars($servicos['']) ?>" class="more-btn">VIEW MORE</a>
                         </div>
                     </div>
                 </div>

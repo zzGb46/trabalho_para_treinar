@@ -6,7 +6,7 @@ class HomeController extends Controller{
 
 
     $dados = array();
-    $dados['titulo'] = 'ki oficina';
+    $dados['titulo'] = 'ki TESTE';
 
    //instanciar o metodo servico 
    $servicoModel = new Servico();
@@ -28,7 +28,7 @@ class HomeController extends Controller{
 
   
 
-    $this->carregarViews('home',$dados);
+    $this->carregarViews('home', $dados);
 
     }
 }

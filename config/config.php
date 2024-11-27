@@ -1,8 +1,13 @@
 <?php
 
+session_start();
+
+if(session_status() == PHP_SESSION_NONE){
+    session_start();
+}
 
 //cria constantes
-define("BASE_URL", "https://kioficina.smp.sistema.com.br/");
+define("BASE_URL", "http://localhost/kioficina/public/");
 
 
 //configuração database

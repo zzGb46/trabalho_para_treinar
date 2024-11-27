@@ -8,7 +8,7 @@ class ServicoController extends Controller
 
 
     $dados = array();
-    $dados['titulo'] = 'ki oficina';
+    $dados['titulo'] = 'ki ';
 
     $servicoModel = new Servico();
 
@@ -42,6 +42,7 @@ class ServicoController extends Controller
       $this->carregarViews('detalhe-servicos', $dados);
     } else {
       $dados['titulo'] = 'servicos ki oficina';
+      
       $this->carregarViews('servicoTwo', $dados);
     }
   }

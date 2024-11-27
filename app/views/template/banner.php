@@ -18,8 +18,8 @@
                                 </div>
                                 <div class="ak-height-45 ak-height-lg-30"></div>
                                 <div data-swiper-parallax="300">
-                                    <a href="appointment.html" class="common-btn">
-                                        APPOINTMENT
+                                    <a href="#" class="common-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        MODAL
                                     </a>
                                 </div>
                             </div>
