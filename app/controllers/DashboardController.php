@@ -10,7 +10,7 @@ class DashboardController extends Controller
             session_start();
         }
 
-        if(isset($_SESSION['userId']) || isset($_SESSION['userTipo'])){
+        if(!isset($_SESSION['userId']) || !isset($_SESSION['userTipo'])){
             
             header('location:' . BASE_URL);
             exit;

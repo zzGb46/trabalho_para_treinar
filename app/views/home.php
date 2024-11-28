@@ -78,7 +78,7 @@
                      
                         <div class="form-floating">
                             <select class="form-select" name="tipo_usuario" class="form-control"  require>
-                                <option selected>Selecione como quer entrar:</option>
+                                <option value="selecione">Selecione como quer entrar:</option>
                                 <option value="cliente">Cliente</option>
                                 <option value="funcionario">Fúncionario</option>
  

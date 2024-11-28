@@ -133,9 +133,21 @@ h6 {
 }
 
 #butao{
-background-color: black;
   
+background-color: red;
+width: 100px;
+height: 100px;
+background-image: url(../img/icone2.jpg);
+background-image: linear-gradient(to top, red, black);
+background-repeat: no-repeat;
+background-attachment: fixed;
+border-radius: 50%;
 }
+
+#icone{
+
+}
+
 
 h1 {
   font-size: 62px;

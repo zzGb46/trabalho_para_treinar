@@ -28,7 +28,7 @@
 
                             <li>
                                 <button id="butao" type="button" class="btnLogin" data-bs-toggle="modal" data-bs-target="#loginModal">
-                                <img src="assets/img/profile.jpg" alt="">
+                                <img src="" alt="" id="icone">
                             </button>
 
                             </li>
