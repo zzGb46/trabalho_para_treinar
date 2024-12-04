@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>AdminLTE v4 | Dashboard</title><!--begin::Primary Meta Tags-->
+    <title>Dashboard kioficina</title><!--begin::Primary Meta Tags-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="AdminLTE v4 | Dashboard">
     <meta name="author" content="ColorlibHQ">
@@ -17,19 +17,35 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsvectormap@1.5.3/dist/css/jsvectormap.min.css" integrity="sha256-+uGLJmmTKOqBr+2E6KDYs/NRsHxSkONXFHUL0fy2O/4=" crossorigin="anonymous">
 </head> <!--end::Head--> <!--begin::Body-->
 
-<body class="layout-fixed sidebar-expand-lg bg-body-tertiary"> <!--begin::App Wrapper-->
-    <div class="app-wrapper"> <!--begin::Header-->
-        <nav class="app-header navbar navbar-expand bg-body"> <!--begin::Container-->
-            <div class="container-fluid"> <!--begin::Start Navbar Links-->
+<body class="layout-fixed sidebar-expand-lg bg-body-tertiary">
+
+    <!--begin::App Wrapper-->
+    <div class="app-wrapper">
+
+        <!--begin::Header-->
+        <nav class="app-header navbar navbar-expand bg-body">
+
+            <!--begin::Container-->
+            <div class="container-fluid" >
+
+                <!--begin::Start Navbar Links-->
                 <ul class="navbar-nav">
                     <li class="nav-item"> <a class="nav-link" data-lte-toggle="sidebar" href="#" role="button"> <i class="bi bi-list"></i> </a> </li>
-                    <li class="nav-item d-none d-md-block"> <a href="#" class="nav-link">Home</a> </li>
-                    <li class="nav-item d-none d-md-block"> <a href="#" class="nav-link">Contact</a> </li>
+                    <li class="nav-item d-none d-md-block"> <a href="#" class="nav-link">Site Ki Oficina</a> </li>
+
+
                 </ul> <!--end::Start Navbar Links--> <!--begin::End Navbar Links-->
+
+
                 <ul class="navbar-nav ms-auto"> <!--begin::Navbar Search-->
+
+
                     <li class="nav-item"> <a class="nav-link" data-widget="navbar-search" href="#" role="button"> <i class="bi bi-search"></i> </a> </li> <!--end::Navbar Search--> <!--begin::Messages Dropdown Menu-->
+
+
                     <li class="nav-item dropdown"> <a class="nav-link" data-bs-toggle="dropdown" href="#"> <i class="bi bi-chat-text"></i> <span class="navbar-badge badge text-bg-danger">3</span> </a>
-                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end"> <a href="#" class="dropdown-item"> <!--begin::Message-->
+
+                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end"d> <a href="#" class="dropdown-item"> <!--begin::Message-->
                                 <div class="d-flex">
                                     <div class="flex-shrink-0"> <img src="http://localhost/kioficina/public/vendors/dash/assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 rounded-circle me-3"> </div>
                                     <div class="flex-grow-1">
@@ -74,6 +90,8 @@
                             <div class="dropdown-divider"></div> <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
                         </div>
                     </li> <!--end::Messages Dropdown Menu--> <!--begin::Notifications Dropdown Menu-->
+
+
                     <li class="nav-item dropdown"> <a class="nav-link" data-bs-toggle="dropdown" href="#"> <i class="bi bi-bell-fill"></i> <span class="navbar-badge badge text-bg-warning">15</span> </a>
                         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end"> <span class="dropdown-item dropdown-header">15 Notifications</span>
                             <div class="dropdown-divider"></div> <a href="#" class="dropdown-item"> <i class="bi bi-envelope me-2"></i> 4 new messages
@@ -87,15 +105,19 @@
                             </a>
                         </div>
                     </li> <!--end::Notifications Dropdown Menu--> <!--begin::Fullscreen Toggle-->
+
+
                     <li class="nav-item"> <a class="nav-link" href="#" data-lte-toggle="fullscreen"> <i data-lte-icon="maximize" class="bi bi-arrows-fullscreen"></i> <i data-lte-icon="minimize" class="bi bi-fullscreen-exit" style="display: none;"></i> </a> </li> <!--end::Fullscreen Toggle--> <!--begin::User Menu Dropdown-->
-                    <li class="nav-item dropdown user-menu"> <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> <img src="http://localhost/kioficina/public/vendors/dash/assets/img/user2-160x160.jpg" class="user-image rounded-circle shadow" alt="User Image"> <span class="d-none d-md-inline">Alexander Pierce</span> </a>
+                    <li class="nav-item dropdown user-menu"> <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> <img src="http://localhost/kioficina/public/vendors/dash/assets/img/user2-160x160.jpg" class="user-image rounded-circle shadow" alt="User Image"> <span class="d-none d-md-inline">Bianca</span> </a>
                         <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end"> <!--begin::User Image-->
                             <li class="user-header text-bg-primary"> <img src="http://localhost/kioficina/public/vendors/dash/assets/img/user2-160x160.jpg" class="rounded-circle shadow" alt="User Image">
                                 <p>
-                                    Alexander Pierce - Web Developer
+                                  Bianca Silva
                                     <small>Member since Nov. 2023</small>
                                 </p>
                             </li> <!--end::User Image--> <!--begin::Menu Body-->
+
+
                             <li class="user-body"> <!--begin::Row-->
                                 <div class="row">
                                     <div class="col-4 text-center"> <a href="#">Followers</a> </div>
@@ -103,171 +125,155 @@
                                     <div class="col-4 text-center"> <a href="#">Friends</a> </div>
                                 </div> <!--end::Row-->
                             </li> <!--end::Menu Body--> <!--begin::Menu Footer-->
-                            <li class="user-footer"> <a href="#" class="btn btn-default btn-flat">Profile</a> <a href="#" class="btn btn-default btn-flat float-end">Sign out</a> </li> <!--end::Menu Footer-->
+
+
+                            <li class="user-footer"> <a href="#" class="btn btn-default btn-flat">Profile</a> <a href="http://localhost/kioficina/public/auth/sair" class="btn btn-default btn-flat float-end">Sair</a> </li> <!--end::Menu Footer-->
                         </ul>
                     </li> <!--end::User Menu Dropdown-->
                 </ul> <!--end::End Navbar Links-->
             </div> <!--end::Container-->
         </nav> <!--end::Header--> <!--begin::Sidebar-->
+
+
+
+        <!-- oq está do lado esquerdo -->
         <aside class="app-sidebar bg-body-secondary shadow" data-bs-theme="dark"> <!--begin::Sidebar Brand-->
-            <div class="sidebar-brand"> <!--begin::Brand Link--> <a href="./index.html" class="brand-link"> <!--begin::Brand Image--> <img src="http://localhost/kioficina/public/vendors/dash/assets/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image opacity-75 shadow"> <!--end::Brand Image--> <!--begin::Brand Text--> <span class="brand-text fw-light">AdminLTE 4</span> <!--end::Brand Text--> </a> <!--end::Brand Link--> </div> <!--end::Sidebar Brand--> <!--begin::Sidebar Wrapper-->
-            <div class="sidebar-wrapper">
+            <div class="sidebar-brand"> <!--begin::Brand Link--> <a href="./index.html" class="brand-link"> <!--begin::Brand Image--> <img src="http://localhost/kioficina/public/assets/img/logonova.svg" alt="Ki Oficina" class="brand-image opacity-75 shadow"> <!--end::Brand Image--> <!--begin::Brand Text--> <span class="brand-text fw-light"></span> <!--end::Brand Text--> </a> <!--end::Brand Link--> </div> <!--end::Sidebar Brand--> <!--begin::Sidebar Wrapper-->
+            <div class="sidebar-wrapper"  style="background-color: black;">
                 <nav class="mt-2"> <!--begin::Sidebar Menu-->
                     <ul class="nav sidebar-menu flex-column" data-lte-toggle="treeview" role="menu" data-accordion="false">
                         <li class="nav-item menu-open"> <a href="#" class="nav-link active"> <i class="nav-icon bi bi-speedometer"></i>
                                 <p>
                                     Dashboard
-                                    <i class="nav-arrow bi bi-chevron-right"></i>
                                 </p>
                             </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item"> <a href="./index.html" class="nav-link active"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Dashboard v1</p>
-                                    </a> </li>
-                                <li class="nav-item"> <a href="./index2.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Dashboard v2</p>
-                                    </a> </li>
-                                <li class="nav-item"> <a href="./index3.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Dashboard v3</p>
-                                    </a> </li>
-                            </ul>
+
                         </li>
-                        <li class="nav-item"> <a href="./generate/theme.html" class="nav-link"> <i class="nav-icon bi bi-palette"></i>
-                                <p>Theme Generate</p>
-                            </a> </li>
-                        <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-box-seam-fill"></i>
+
+                        <li class="nav-item"> <a href="#" class="nav-link"> <i class="bi bi-gear"></i>
                                 <p>
-                                    Widgets
+                                    Gestão de Serviços
                                     <i class="nav-arrow bi bi-chevron-right"></i>
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item"> <a href="./widgets/small-box.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Small Box</p>
+                                        <p>Agendamento de Serviços</p>
                                     </a> </li>
-                                <li class="nav-item"> <a href="./widgets/info-box.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>info Box</p>
+
+
+                                <li class="nav-item"> <a href="http://localhost/kioficina/public/servico/listar" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
+                                        <p>Serviços</p>
                                     </a> </li>
+
+
+
                                 <li class="nav-item"> <a href="./widgets/cards.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Cards</p>
+                                        <p>Especialidades</p>
                                     </a> </li>
                             </ul>
                         </li>
-                        <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-clipboard-fill"></i>
+
+
+                        <li class="nav-item"> <a href="#" class="nav-link"> <i class="bi bi-people"></i>
                                 <p>
-                                    Layout Options
-                                    <span class="nav-badge badge text-bg-secondary me-3">6</span> <i class="nav-arrow bi bi-chevron-right"></i>
+                                    Gestão de Cliente
+                                    <i class="nav-arrow bi bi-chevron-right"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item"> <a href="./widgets/small-box.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
+                                        <p>Clientes</p>
+                                    </a> </li>
+                                <li class="nav-item"> <a href="./widgets/info-box.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
+                                        <p>Veículos</p>
+                                    </a> </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"> <a href="#" class="nav-link"> <i class="bi bi-briefcase"></i>
+                                <p>
+                                    Rercursos Humanos
+                                    <i class="nav-arrow bi bi-chevron-right"></i>
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item"> <a href="./layout/unfixed-sidebar.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Default Sidebar</p>
+                                        <p>Funcionários</p>
                                     </a> </li>
-                                <li class="nav-item"> <a href="./layout/fixed-sidebar.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Fixed Sidebar</p>
-                                    </a> </li>
-                                <li class="nav-item"> <a href="./layout/layout-custom-area.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Layout <small>+ Custom Area </small></p>
-                                    </a> </li>
-                                <li class="nav-item"> <a href="./layout/sidebar-mini.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Sidebar Mini</p>
-                                    </a> </li>
-                                <li class="nav-item"> <a href="./layout/collapsed-sidebar.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Sidebar Mini <small>+ Collapsed</small></p>
-                                    </a> </li>
-                                <li class="nav-item"> <a href="./layout/logo-switch.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Sidebar Mini <small>+ Logo Switch</small></p>
-                                    </a> </li>
-                                <li class="nav-item"> <a href="./layout/layout-rtl.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Layout RTL</p>
-                                    </a> </li>
+
                             </ul>
                         </li>
-                        <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-tree-fill"></i>
+                        <li class="nav-item"> <a href="#" class="nav-link"> <i class="bi bi-truck"></i>
                                 <p>
-                                    UI Elements
+                                    Fornecedores
                                     <i class="nav-arrow bi bi-chevron-right"></i>
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item"> <a href="./UI/general.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>General</p>
+                                        <p>Fornecedores</p>
                                     </a> </li>
                                 <li class="nav-item"> <a href="./UI/icons.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Icons</p>
-                                    </a> </li>
-                                <li class="nav-item"> <a href="./UI/timeline.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Timeline</p>
+                                        <p>Peças</p>
                                     </a> </li>
                             </ul>
                         </li>
-                        <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-pencil-square"></i>
+
+
+                        <li class="nav-header">Site</li>
+                        <li class="nav-item"> <a href="#" class="nav-link"> <i class="bi bi-chat-left-text"></i>
                                 <p>
-                                    Forms
-                                    <i class="nav-arrow bi bi-chevron-right"></i>
+                                    Depoimento
+
                                 </p>
                             </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item"> <a href="./forms/general.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>General Elements</p>
-                                    </a> </li>
-                            </ul>
                         </li>
-                        <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-table"></i>
+
+                        <li class="nav-item"> <a href="#" class="nav-link"> <i class="bi bi-card-image"></i>
                                 <p>
-                                    Tables
-                                    <i class="nav-arrow bi bi-chevron-right"></i>
+                                    Banners
+
                                 </p>
                             </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item"> <a href="./tables/simple.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Simple Tables</p>
-                                    </a> </li>
-                            </ul>
                         </li>
-                        <li class="nav-header">EXAMPLES</li>
-                        <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-box-arrow-in-right"></i>
+
+                        <li class="nav-item"> <a href="#" class="nav-link"> <i class="bi bi-envelope"></i> <!--<i class="nav-icon bi bi-box-arrow-in-right"></i> -->
                                 <p>
-                                    Auth
-                                    <i class="nav-arrow bi bi-chevron-right"></i>
+                                    Contato
+
                                 </p>
                             </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-box-arrow-in-right"></i>
-                                        <p>
-                                            Version 1
-                                            <i class="nav-arrow bi bi-chevron-right"></i>
-                                        </p>
-                                    </a>
-                                    <ul class="nav nav-treeview">
-                                        <li class="nav-item"> <a href="./examples/login.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                                <p>Login</p>
-                                            </a> </li>
-                                        <li class="nav-item"> <a href="./examples/register.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                                <p>Register</p>
-                                            </a> </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-box-arrow-in-right"></i>
-                                        <p>
-                                            Version 2
-                                            <i class="nav-arrow bi bi-chevron-right"></i>
-                                        </p>
-                                    </a>
-                                    <ul class="nav nav-treeview">
-                                        <li class="nav-item"> <a href="./examples/login-v2.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                                <p>Login</p>
-                                            </a> </li>
-                                        <li class="nav-item"> <a href="./examples/register-v2.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                                <p>Register</p>
-                                            </a> </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item"> <a href="./examples/lockscreen.html" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Lockscreen</p>
-                                    </a> </li>
-                            </ul>
                         </li>
+
+                        <li class="nav-item"> <a href="#" class="nav-link"> <i class="bi bi-images"></i>
+                                <p>
+                                    Galeria
+
+                                </p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item"> <a href="#" class="nav-link"> <i class="bi bi-tags"></i>
+                                <p>
+                                    Marcas
+
+                                </p>
+                            </a>
+                        </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <!-- 
                         <li class="nav-header">DOCUMENTATIONS</li>
                         <li class="nav-item"> <a href="./docs/introduction.html" class="nav-link"> <i class="nav-icon bi bi-download"></i>
                                 <p>Installation</p>
@@ -367,13 +373,17 @@
                         <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-circle text-info"></i>
                                 <p>Informational</p>
                             </a> </li>
-                    </ul> <!--end::Sidebar Menu-->
+                    </ul> end::Sidebar Menu -->
+
                 </nav>
             </div> <!--end::Sidebar Wrapper-->
         </aside> <!--end::Sidebar--> <!--begin::App Main-->
+
+
+        <!-- começo do site  -->
         <main class="app-main"> <!--begin::App Content Header-->
-            <div class="app-content-header"> <!--begin::Container-->
-                <div class="container-fluid"> <!--begin::Row-->
+            <div class="app-content-header "> <!--begin::Container-->
+                <div class="container-fluid" > <!--begin::Row-->
                     <div class="row">
                         <div class="col-sm-6">
                             <h3 class="mb-0">Dashboard</h3>
@@ -388,6 +398,8 @@
                         </div>
                     </div> <!--end::Row-->
                 </div> <!--end::Container-->
+
+
             </div> <!--end::App Content Header--> <!--begin::App Content-->
             <div class="app-content"> <!--begin::Container-->
                 <div class="container-fluid"> <!--begin::Row-->
@@ -438,169 +450,48 @@
                             </div> <!--end::Small Box Widget 4-->
                         </div> <!--end::Col-->
                     </div> <!--end::Row--> <!--begin::Row-->
+
+
+
+
+
+
                     <div class="row"> <!-- Start col -->
-                        <div class="col-lg-7 connectedSortable">
-                            <div class="card mb-4">
-                                <div class="card-header">
-                                    <h3 class="card-title">Sales Value</h3>
-                                </div>
-                                <div class="card-body">
-                                    <div id="revenue-chart"></div>
-                                </div>
-                            </div> <!-- /.card --> <!-- DIRECT CHAT -->
-                            <div class="card direct-chat direct-chat-primary mb-4">
-                                <div class="card-header">
-                                    <h3 class="card-title">Direct Chat</h3>
-                                    <div class="card-tools"> <span title="3 New Messages" class="badge text-bg-primary">
-                                            3
-                                        </span> <button type="button" class="btn btn-tool" data-lte-toggle="card-collapse"> <i data-lte-icon="expand" class="bi bi-plus-lg"></i> <i data-lte-icon="collapse" class="bi bi-dash-lg"></i> </button> <button type="button" class="btn btn-tool" title="Contacts" data-lte-toggle="chat-pane"> <i class="bi bi-chat-text-fill"></i> </button> <button type="button" class="btn btn-tool" data-lte-toggle="card-remove"> <i class="bi bi-x-lg"></i> </button> </div>
-                                </div> <!-- /.card-header -->
-                                <div class="card-body"> <!-- Conversations are loaded here -->
-                                    <div class="direct-chat-messages"> <!-- Message. Default to the start -->
-                                        <div class="direct-chat-msg">
-                                            <div class="direct-chat-infos clearfix"> <span class="direct-chat-name float-start">
-                                                    Alexander Pierce
-                                                </span> <span class="direct-chat-timestamp float-end">
-                                                    23 Jan 2:00 pm
-                                                </span> </div> <!-- /.direct-chat-infos --> <img class="direct-chat-img" src="http://localhost/kioficina/public/vendors/dash/assets/img/user1-128x128.jpg" alt="message user image"> <!-- /.direct-chat-img -->
-                                            <div class="direct-chat-text">
-                                                Is this template really for free? That's unbelievable!
-                                            </div> <!-- /.direct-chat-text -->
-                                        </div> <!-- /.direct-chat-msg --> <!-- Message to the end -->
-                                        <div class="direct-chat-msg end">
-                                            <div class="direct-chat-infos clearfix"> <span class="direct-chat-name float-end">
-                                                    Sarah Bullock
-                                                </span> <span class="direct-chat-timestamp float-start">
-                                                    23 Jan 2:05 pm
-                                                </span> </div> <!-- /.direct-chat-infos --> <img class="direct-chat-img" src="http://localhost/kioficina/public/vendors/dash/assets/img/user3-128x128.jpg" alt="message user image"> <!-- /.direct-chat-img -->
-                                            <div class="direct-chat-text">
-                                                You better believe it!
-                                            </div> <!-- /.direct-chat-text -->
-                                        </div> <!-- /.direct-chat-msg --> <!-- Message. Default to the start -->
-                                        <div class="direct-chat-msg">
-                                            <div class="direct-chat-infos clearfix"> <span class="direct-chat-name float-start">
-                                                    Alexander Pierce
-                                                </span> <span class="direct-chat-timestamp float-end">
-                                                    23 Jan 5:37 pm
-                                                </span> </div> <!-- /.direct-chat-infos --> <img class="direct-chat-img" src="http://localhost/kioficina/public/vendors/dash/assets/img/user1-128x128.jpg" alt="message user image"> <!-- /.direct-chat-img -->
-                                            <div class="direct-chat-text">
-                                                Working with AdminLTE on a great new app! Wanna join?
-                                            </div> <!-- /.direct-chat-text -->
-                                        </div> <!-- /.direct-chat-msg --> <!-- Message to the end -->
-                                        <div class="direct-chat-msg end">
-                                            <div class="direct-chat-infos clearfix"> <span class="direct-chat-name float-end">
-                                                    Sarah Bullock
-                                                </span> <span class="direct-chat-timestamp float-start">
-                                                    23 Jan 6:10 pm
-                                                </span> </div> <!-- /.direct-chat-infos --> <img class="direct-chat-img" src="http://localhost/kioficina/public/vendors/dash/assets/img/user3-128x128.jpg" alt="message user image"> <!-- /.direct-chat-img -->
-                                            <div class="direct-chat-text">I would love to.</div> <!-- /.direct-chat-text -->
-                                        </div> <!-- /.direct-chat-msg -->
-                                    </div> <!-- /.direct-chat-messages--> <!-- Contacts are loaded here -->
-                                    <div class="direct-chat-contacts">
-                                        <ul class="contacts-list">
-                                            <li> <a href="#"> <img class="contacts-list-img" src="http://localhost/kioficina/public/vendors/dash/assets/img/user1-128x128.jpg" alt="User Avatar">
-                                                    <div class="contacts-list-info"> <span class="contacts-list-name">
-                                                            Count Dracula
-                                                            <small class="contacts-list-date float-end">
-                                                                2/28/2023
-                                                            </small> </span> <span class="contacts-list-msg">
-                                                            How have you been? I was...
-                                                        </span> </div> <!-- /.contacts-list-info -->
-                                                </a> </li> <!-- End Contact Item -->
-                                            <li> <a href="#"> <img class="contacts-list-img" src="http://localhost/kioficina/public/vendors/dash/assets/img/user7-128x128.jpg" alt="User Avatar">
-                                                    <div class="contacts-list-info"> <span class="contacts-list-name">
-                                                            Sarah Doe
-                                                            <small class="contacts-list-date float-end">
-                                                                2/23/2023
-                                                            </small> </span> <span class="contacts-list-msg">
-                                                            I will be waiting for...
-                                                        </span> </div> <!-- /.contacts-list-info -->
-                                                </a> </li> <!-- End Contact Item -->
-                                            <li> <a href="#"> <img class="contacts-list-img" src="http://localhost/kioficina/public/vendors/dash/assets/img/user3-128x128.jpg" alt="User Avatar">
-                                                    <div class="contacts-list-info"> <span class="contacts-list-name">
-                                                            Nadia Jolie
-                                                            <small class="contacts-list-date float-end">
-                                                                2/20/2023
-                                                            </small> </span> <span class="contacts-list-msg">
-                                                            I'll call you back at...
-                                                        </span> </div> <!-- /.contacts-list-info -->
-                                                </a> </li> <!-- End Contact Item -->
-                                            <li> <a href="#"> <img class="contacts-list-img" src="http://localhost/kioficina/public/vendors/dash/assets/img/user5-128x128.jpg" alt="User Avatar">
-                                                    <div class="contacts-list-info"> <span class="contacts-list-name">
-                                                            Nora S. Vans
-                                                            <small class="contacts-list-date float-end">
-                                                                2/10/2023
-                                                            </small> </span> <span class="contacts-list-msg">
-                                                            Where is your new...
-                                                        </span> </div> <!-- /.contacts-list-info -->
-                                                </a> </li> <!-- End Contact Item -->
-                                            <li> <a href="#"> <img class="contacts-list-img" src="http://localhost/kioficina/public/vendors/dash/assets/img/user6-128x128.jpg" alt="User Avatar">
-                                                    <div class="contacts-list-info"> <span class="contacts-list-name">
-                                                            John K.
-                                                            <small class="contacts-list-date float-end">
-                                                                1/27/2023
-                                                            </small> </span> <span class="contacts-list-msg">
-                                                            Can I take a look at...
-                                                        </span> </div> <!-- /.contacts-list-info -->
-                                                </a> </li> <!-- End Contact Item -->
-                                            <li> <a href="#"> <img class="contacts-list-img" src="http://localhost/kioficina/public/vendors/dash/assets/img/user8-128x128.jpg" alt="User Avatar">
-                                                    <div class="contacts-list-info"> <span class="contacts-list-name">
-                                                            Kenneth M.
-                                                            <small class="contacts-list-date float-end">
-                                                                1/4/2023
-                                                            </small> </span> <span class="contacts-list-msg">
-                                                            Never mind I found...
-                                                        </span> </div> <!-- /.contacts-list-info -->
-                                                </a> </li> <!-- End Contact Item -->
-                                        </ul> <!-- /.contacts-list -->
-                                    </div> <!-- /.direct-chat-pane -->
-                                </div> <!-- /.card-body -->
-                                <div class="card-footer">
-                                    <form action="#" method="post">
-                                        <div class="input-group"> <input type="text" name="message" placeholder="Type Message ..." class="form-control"> <span class="input-group-append"> <button type="button" class="btn btn-primary">
-                                                    Send
-                                                </button> </span> </div>
-                                    </form>
-                                </div> <!-- /.card-footer-->
-                            </div> <!-- /.direct-chat -->
-                        </div> <!-- /.Start col --> <!-- Start col -->
-                        <div class="col-lg-5 connectedSortable">
-                            <div class="card text-white bg-primary bg-gradient border-primary mb-4">
-                                <div class="card-header border-0">
-                                    <h3 class="card-title">Sales Value</h3>
-                                    <div class="card-tools"> <button type="button" class="btn btn-primary btn-sm" data-lte-toggle="card-collapse"> <i data-lte-icon="expand" class="bi bi-plus-lg"></i> <i data-lte-icon="collapse" class="bi bi-dash-lg"></i> </button> </div>
-                                </div>
-                                <div class="card-body">
-                                    <div id="world-map" style="height: 220px"></div>
-                                </div>
-                                <div class="card-footer border-0"> <!--begin::Row-->
-                                    <div class="row">
-                                        <div class="col-4 text-center">
-                                            <div id="sparkline-1" class="text-dark"></div>
-                                            <div class="text-white">Visitors</div>
-                                        </div>
-                                        <div class="col-4 text-center">
-                                            <div id="sparkline-2" class="text-dark"></div>
-                                            <div class="text-white">Online</div>
-                                        </div>
-                                        <div class="col-4 text-center">
-                                            <div id="sparkline-3" class="text-dark"></div>
-                                            <div class="text-white">Sales</div>
-                                        </div>
-                                    </div> <!--end::Row-->
-                                </div>
-                            </div>
-                        </div> <!-- /.Start col -->
+
+                    <!-- Conteúdo -->
+
+                    <?php 
+
+                    if(isset($conteudo)){
+                        $this->carregarViews($conteudo, $dados);
+                        
+
+                    }else{
+                        echo '<h2> Bem - vindo ao Dashboard </h2>';
+                    }
+                    ?>
+
+                      
+                       
+
+
+
+
                     </div> <!-- /.row (main row) -->
+
+
+
+
+
                 </div> <!--end::Container-->
             </div> <!--end::App Content-->
         </main> <!--end::App Main--> <!--begin::Footer-->
-        <footer class="app-footer"> <!--begin::To the end-->
-            <div class="float-end d-none d-sm-inline">Anything you want</div> <!--end::To the end--> <!--begin::Copyright--> <strong>
-                Copyright &copy; 2014-2024&nbsp;
-                <a href="https://adminlte.io" class="text-decoration-none">AdminLTE.io</a>.
+        <footer class="app-footer" style="background-color: black;"> <!--begin::To the end-->
+            <div class="float-end d-none d-sm-inline">Ki Oficina</div> <!--end::To the end--> <!--begin::Copyright--> <strong>
+         
+                <a href="https://adminlte.io" class="text-decoration-none">Ki Oficina</a>.
             </strong>
-            All rights reserved.
+         
             <!--end::Copyright-->
         </footer> <!--end::Footer-->
     </div> <!--end::App Wrapper--> <!--begin::Script--> <!--begin::Third Party Plugin(OverlayScrollbars)-->

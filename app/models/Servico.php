@@ -37,6 +37,14 @@ class Servico extends Model
 
  
      }
+
+     public function getTodosServicos()
+     {
+        $sql = "SELECT * from tbl_gabrielm_servico where status_servico = 'Ativo'
+        order by nome_servico ASC";
+        $stmt = $this->db->query($sql);
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+     }
     
 
 }

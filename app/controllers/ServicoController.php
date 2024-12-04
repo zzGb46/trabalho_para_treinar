@@ -3,6 +3,22 @@
 class ServicoController extends Controller
 {
 
+  private $servicoModel;
+
+  public function __construct()
+  {
+
+    if (session_status() == PHP_SESSION_NONE) {
+            session_start();
+        }
+
+        $this->servicoModel = new Servico();
+  }
+  
+    
+  
+
+  // FRONT-END: Carregar a lista de serviços
   public function index()
   {
 
@@ -26,7 +42,7 @@ class ServicoController extends Controller
     $this->carregarViews('servico', $dados);
   }
 
-
+//FRONT-END: Carregar o detalhe do serviços
   public function detalhe($link)
   {
 
@@ -45,5 +61,65 @@ class ServicoController extends Controller
       
       $this->carregarViews('servicoTwo', $dados);
     }
+  }
+
+
+
+//########################################################
+//BACK-END = DASHBOARD
+//########################################################
+
+//1- Método para listar todos os serviços
+public function listar(){
+
+  if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
+
+if(!isset($_SESSION['userTipo']) || $_SESSION['userTipo'] !== 'funcionario'){
+
+  header('Location:' . BASE_URL);
+  exit;
+}
+
+$dados = array();
+
+$dados['listaServico'] = $this->servicoModel->getTodosServicos();
+$dados['conteudo'] = 'dash/servico/listar';
+
+$this->carregarViews('dash/dashboard', $dados);
+
+}
+
+//2- Método para adicionar serviços 
+public function adicionar(){
+
+  $dados = array();
+  $dados['conteudo'] = 'dash/servico/adicionar';
+  
+  $this->carregarViews('dash/dashboard', $dados);
+  
+  }
+
+
+//3-Método para editar 
+public function editar(){
+
+  $dados = array();
+  $dados['conteudo'] = 'dash/servico/editar';
+  
+  $this->carregarViews('dash/dashboard', $dados);
+  
+  }
+
+
+//4-Método para desativar o serviço
+public function desativar(){
+
+  $dados = array();
+  $dados['conteudo'] = 'dash/servico/desativar';
+  
+  $this->carregarViews('dash/dashboard', $dados);
+  
   }
 }

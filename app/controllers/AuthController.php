@@ -32,7 +32,7 @@ class AuthController extends Controller
                     $campoNome = 'nome_cliente';
                 } elseif ($tipo_usuario === 'funcionario') {
                     $usuarioModel = new Funcionario();
-                    $usuario = $usuarioModel->buscarFunc($email);
+                    $usuario = $usuarioModel->buscarFuncionario($email);
                     $campoSenha = 'senha_funcionario';
                     $campoId = 'id_funcionario';
                     $campoNome = 'nome_funcionario';
